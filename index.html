@@ -1,134 +1,19 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afrin Shaikh - Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-    <script defer src="./index.js"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio React - GreatStack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="header-logo">✍️</div>
-        <h1 class="name">Afrin Shaikh</h1>
-        <nav>
-            <div class="burger-menu" onclick="toggleMenu()"></div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <div>
-        <h2>About Me</h2>
-        <section id="about">
-            <img src="./afrin.jpeg" alt="Afrin Shaikh" class="profile-img">
-            <div class="abt-sec">
-                <p>I'm a passionate Frontend Developer who loves creating stunning and responsive web applications.</p>
-                <p>Passionate Frontend Developer with expertise in building responsive, user-centric web applications. Proficient in HTML, CSS, JavaScript, React, and modern UI frameworks. Skilled in optimizing performance, enhancing user experience, and implementing clean, maintainable code.</p>
-                <button><a href="https://drive.google.com/file/d/1zQjMxOojlS-EFkua686f2HG4HleT7uM_/view?usp=drive_link" target="_blank">Resume</a></button>
-            </div>
-        </section>
-    </div>
-    
-    <div>
-        <h2>My Projects</h2>
-        <section id="projects">
-            <div class="project">
-                <h3>Project 1</h3>
-                <img src="./proj1.PNG" alt="Project 1 Screenshot" class="project-img">
-                <img src="./proj1-a.PNG" alt="Project 1 Screenshot" class="project-img">
-                   <img src="./proj1-b.PNG" alt="Project 1 Screenshot" class="project-img">
-
-                <p>PharmEasy Clone</p>
-                <a href="https://afrin-me.github.io/ProjectSubmission/" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <!-- <img src="../proj2-a.PNG" alt="Project 2 Screenshot" class="project-img"> -->
-                <img src="./proj2-a.PNG" alt="Project 2 Screenshot" class="project-img">
-            <img src="./proj2-b.PNG" alt="Project 2 Screenshot" class="project-img">
-            <img src="./proj2-c.PNG" alt="Project 2 Screenshot" class="project-img">
-
-                <p>Quiz App</p>
-                <a href="https://afrin-me.github.io/QuizApp/" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <img src="./proj2-a.PNG" alt="Project 2 Screenshot" class="project-img">
-                <p>Description of project 2.</p>
-                <a href="https://afrin-me.github.io/QuizApp/" target="_blank">View on GitHub</a>
-            </div>
-        </section>
-    </div>
-    
-    <div #skills-div>
-        <h2>My Skills</h2>
-        <section id="skills">
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
-                
-                <h3>React</h3>
-                <input type="range" min="1" max="5" value="4" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux Logo">
-                <h3>Redux</h3>
-                <input type="range" min="1" max="5" value="4" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
-                <h3>JavaScript</h3>
-                <input type="range" min="1" max="5" value="5" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo">
-                <h3>HTML</h3>
-                <input type="range" min="1" max="5" value="5" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo">
-                <h3>CSS</h3>
-                <input type="range" min="1" max="5" value="4" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo">
-                <h3>GitHub</h3>
-                <input type="range" min="1" max="5" value="4" class="skill-slider">
-            </div>
-            <div class="skill-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase Logo">
-                <h3>Firebase</h3>
-                <input type="range" min="1" max="5" value="3" class="skill-slider">
-            </div>
-        </section>
-    </div>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:shaikhafrin1125@gmail.com">shaikhafrin1125@gmail.com</a></p>
-        <div class="social-links">
-            <a href="https://github.com/Afrin-me/" target="_blank">
-                <img src="data:image/png;base64,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" alt="GitHub">
-            </a>
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank">
-                <img src="data:image/png;base64,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" alt="LinkedIn">
-            </a>
-        </div>
-    </section>
-
-    <footer>
-        <p>Made with ❤️ by Afrin Shaikh</p>
-    </footer>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>
-
-<!-- /* JavaScript - script.js */
-
-function toggleMenu() {
-    document.querySelector('.nav-links').classList.toggle('active');
-} -->
