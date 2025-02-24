@@ -142,13 +142,7 @@ h3 {
     margin: auto;
 }
 
-#about {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    gap: 40px;
-    font-style: "bold";
-}
+
 
 #about img {
     width: 300px;
@@ -217,7 +211,11 @@ h2 {
         top: 60px;
         right: 10px;
         padding: 10px;
+        margin-top: -52px;
     }
+        .nav-links li {
+            margin: 0 15px;
+        }
 
     .nav-links.active {
         display: flex;
@@ -225,7 +223,30 @@ h2 {
 
     .burger-menu {
         display: block;
+        cursor: pointer;
     }
+}
+
+header{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+
+#about {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    font-style: "bold";
+}
+
+#about img {
+    width: 300px;
+    height: 250px;
+    border: 1px solid teal;
+        box-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
 }
 
 #skills {
@@ -257,6 +278,15 @@ h2 {
 .skill-slider {
     width: 100%;
     margin-top: 10px;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 1px solid white; */
+    width: 90%;
+    margin: auto;
+
 }
 
 .profile-img,
