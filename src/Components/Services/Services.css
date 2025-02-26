@@ -21,8 +21,9 @@
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 50px;
+
 }
 .services-format h3{
     font-size: 22px;
@@ -69,7 +70,7 @@
     }
     
     .services-format{
-        gap: 10px;
+        gap: 5px;
         padding: 20px;
     }
     .services-format h2{
@@ -83,6 +84,6 @@
     
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 10px;
     }
 }

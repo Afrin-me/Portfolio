@@ -17,10 +17,10 @@ const Services = () => {
              <h3>{service.s_no}</h3>
              <h2>{service.s_name}</h2>
              <img src={service.s_img} alt="" className='logo-img'/>
-             <p>{service.s_desc}</p>
+             {/* <p>{service.s_desc}</p> */}
              <div className='services-readmore'>
-              <p>Read More</p>
-              <img src={arrow_icon} alt="" />
+              {/* <p>Read More</p> */}
+              {/* <img src={arrow_icon} alt="" /> */}
              </div>
           </div>
         })}
