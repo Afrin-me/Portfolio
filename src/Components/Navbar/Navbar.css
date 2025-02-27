@@ -2,7 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 10%;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0px;
+    background-color: #161513;
+    z-index: 9999;
+    margin-top: 0;
+   
 }
 .nav-menu{
     display: flex;
