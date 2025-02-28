@@ -46,6 +46,7 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+    color: black;
 }
 .hero-connect:hover{
     border: 2px solid white;
@@ -55,7 +56,9 @@
 }
 .resume-link{
   text-decoration: none;
-  color: whitesmoke;
+  color: color(srgb red green blue);
+  font-size: 16px;
+  
 }
 @media(max-width:768px){
     .profile-img{

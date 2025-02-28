@@ -16,9 +16,24 @@ const MyWork = () => {
             return (
               <div className="mywork-card">
                 <img key={index} src={work.w_img} alt="" />
-                <h2>
-                  <a href={work.w_deployedlink} target="_blank">Github Link</a>
-                </h2>
+                {/* <h3>{work.w_name}</h3> */}
+                <div className='card-text'>
+                <text>
+                  <a href={work.w_deployedlink} target="_blank">
+                    Deployed Link
+                  </a>
+                </text>
+                <text>
+                  <a href={work.git_gitlink} target="_blank">
+                    Github Link
+                  </a>
+                </text>
+                <text>
+                  <a href={work.w_demoVid} target="_blank">
+                    Demo Video
+                  </a>
+                </text>
+                </div>
               </div>
             );
         })}
